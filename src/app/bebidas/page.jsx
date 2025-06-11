@@ -7,22 +7,22 @@ const bebidasMenu = [
     category: "CERVEZAS ARTESANALES",
     items: [
       {
-        name: "Temple IPA",
+        name: "IPA",
         description: "Cerveza India Pale Ale con lúpulos americanos",
         price: "$850",
       },
       {
-        name: "Temple Lager",
+        name: "Lager",
         description: "Cerveza rubia clásica, refrescante y equilibrada",
         price: "$750",
       },
       {
-        name: "Temple Stout",
+        name: "Stout",
         description: "Cerveza negra con notas de café y chocolate",
         price: "$900",
       },
       {
-        name: "Temple Wheat",
+        name: "Wheat",
         description: "Cerveza de trigo con toque cítrico",
         price: "$800",
       },
@@ -32,7 +32,7 @@ const bebidasMenu = [
     category: "CÓCTELES DE AUTOR",
     items: [
       {
-        name: "Temple Mule",
+        name: "Mule",
         description: "Vodka, jengibre, lima y menta",
         price: "$1200",
       },
@@ -42,7 +42,7 @@ const bebidasMenu = [
         price: "$1350",
       },
       {
-        name: "Old Temple",
+        name: "Old Fashioned",
         description: "Whisky añejo, bitter y almíbar",
         price: "$1500",
       },

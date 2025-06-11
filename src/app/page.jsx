@@ -51,10 +51,11 @@ export default function Home() {
 
         {/* Social Media Section */}
         <div className="text-center">
-          <p className="text-2xl font-bold mb-4 fade-in-up">Seguinos en:</p>
-          <div className="flex justify-center">
+          <p className="text-2xl font-bold mb-4 fade-in-up">Seguinos en</p>
+          <div className="flex justify-center gap-2">
+            <span className="text-xl font-semibold">@Tapeo_arg</span>
             <Link
-              href="https://www.instagram.com/templepuertomadero/"
+              href="https://www.instagram.com/TapeoArg/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block hover:scale-110 transition-transform duration-300"
@@ -63,8 +64,8 @@ export default function Home() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="32"
+                height="32"
                 viewBox="0 0 256 256"
               >
                 <g fill="none">

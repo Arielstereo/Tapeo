@@ -7,7 +7,7 @@ const comidasMenu = [
     category: "ENTRADAS",
     items: [
       {
-        name: "Tabla Temple",
+        name: "Tabla de Quesos y Fiambres",
         description:
           "Selección de quesos y fiambres artesanales con frutos secos",
         price: "$1800",
@@ -33,7 +33,7 @@ const comidasMenu = [
     category: "PLATOS PRINCIPALES",
     items: [
       {
-        name: "Burger Temple",
+        name: "Burger Clásica",
         description: "Carne 200g, queso cheddar, bacon, lechuga y papas",
         price: "$2200",
       },
@@ -73,7 +73,7 @@ const comidasMenu = [
         price: "$2100",
       },
       {
-        name: "Temple Special",
+        name: "Especial",
         description: "Calabaza asada, queso de cabra y panceta",
         price: "$2200",
       },
