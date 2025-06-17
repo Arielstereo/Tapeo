@@ -133,6 +133,13 @@ export default function Comidas() {
             Sabores únicos que celebran la amistad y la irreverencia en cada
             bocado
           </p>
+          <Image
+            src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width={150}
+            height={150}
+            alt="image_burguer"
+            className="mx-auto w-96 my-12"
+          />
         </div>
 
         {/* Menu Grid */}
