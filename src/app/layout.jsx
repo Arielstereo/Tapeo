@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
       </head>
-      <body className="container">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

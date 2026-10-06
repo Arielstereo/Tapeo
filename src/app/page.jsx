@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen bg-[var(--color-carbon)]">
       <SiteHeader currentPage="inicio" />
 
-      <main className="container mx-auto px-4 py-12 md:py-16">
+      <main className="mx-auto px-4 py-12 md:py-16">
         <div className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
@@ -25,13 +25,17 @@ export default function Home() {
             <div className="lg:w-1/3">
               <h1 className="hero-title mb-6">TAPEO</h1>
               <p className="hero-subtitle max-w-lg mb-10">
-                Somos amistad e irreverencia, un culto y una cerveza. No somos otra cervecería.
+                Somos amistad e irreverencia, un culto y una cerveza. No somos
+                otra cervecería.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/comidas" className="btn-primary text-center">
                   COMIDAS
                 </Link>
-                <Link href="/bebidas" className="btn-primary text-center bg-transparent border-2 border-[var(--color-ambar)] text-[var(--color-ambar)] hover:bg-[var(--color-ambar)] hover:text-[var(--color-carbon)]">
+                <Link
+                  href="/bebidas"
+                  className="btn-primary text-center bg-transparent border-2 border-[var(--color-ambar)] text-[var(--color-ambar)] hover:bg-[var(--color-ambar)] hover:text-[var(--color-carbon)]"
+                >
                   BEBIDAS
                 </Link>
               </div>
@@ -52,9 +56,13 @@ export default function Home() {
         </div>
 
         <div className="mt-24 text-center border-t border-[var(--border-subtle)] pt-12">
-          <p className="text-[var(--color-espuma-tenue)] text-lg mb-4">Seguinos en</p>
+          <p className="text-[var(--color-espuma-tenue)] text-lg mb-4">
+            Seguinos en
+          </p>
           <div className="flex justify-center items-center gap-3">
-            <span className="font-[var(--font-mono)] text-sm text-[var(--color-ambar)]">@Tapeo_arg</span>
+            <span className="font-[var(--font-mono)] text-sm text-[var(--color-ambar)]">
+              @Tapeo_arg
+            </span>
             <Link
               href="https://www.instagram.com/TapeoArg/"
               target="_blank"
