@@ -1,0 +1,17 @@
+{
+  "name": "TAPEO",
+  "short_name": "TAPEO",
+  "description": "Somos amistad e irreverencia, un culto y una cerveza. No somos otra cervecería. Somos TAPEO.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0D0C",
+  "theme_color": "#0E0D0C",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
